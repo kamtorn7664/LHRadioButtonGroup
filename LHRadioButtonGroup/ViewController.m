@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LHRadioButtonGroup.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setPage];
     // Do any additional setup after loading the view, typically from a nib.
 //    test ffff
+}
+
+-(void)setPage
+{
+    NSArray *arr = [[NSArray alloc]initWithObjects:@"ชาย",@"หญิง", nil];
+    [self setRadio:arr];
+}
+
+-(void)setRadio:(NSArray*)arr
+{
+    LHRadioButtonGroup *radioButton = [[LHRadioButtonGroup alloc]initWithFrame:_Radiobuttongroup.frame andOptions:arr andColumns:2];
+    [_Radiobuttongroup addSubview:radioButton];
 }
 
 - (void)didReceiveMemoryWarning {
