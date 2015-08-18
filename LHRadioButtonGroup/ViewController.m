@@ -31,7 +31,11 @@
 -(void)setRadio:(NSArray*)arr
 {
     LHRadioButtonGroup *radioButton = [[LHRadioButtonGroup alloc]initWithFrame:_Radiobuttongroup.frame andOptions:arr andColumns:2];
+         radioButton.center = CGPointMake(75, 15);
     [_Radiobuttongroup addSubview:radioButton];
+
+    
+//    [_Radiobuttongroup setBackgroundColor:[UIColor clearColor]];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvb-Ns-1da">
-                                <rect key="frame" x="225" y="225" width="150" height="150"/>
+                                <rect key="frame" x="185" y="285" width="150" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="1lx-te-UWs"/>
+                                    <constraint firstAttribute="height" constant="30" id="1lx-te-UWs"/>
                                     <constraint firstAttribute="width" constant="150" id="nCE-oh-JHb"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="cvb-Ns-1da" secondAttribute="centerX" id="7d0-9a-WYS"/>
+                            <constraint firstAttribute="centerX" secondItem="cvb-Ns-1da" secondAttribute="centerX" constant="40" id="7d0-9a-WYS"/>
                             <constraint firstAttribute="centerY" secondItem="cvb-Ns-1da" secondAttribute="centerY" id="Y0Y-iK-58B"/>
                         </constraints>
                     </view>
